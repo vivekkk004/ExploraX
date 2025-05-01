@@ -1,0 +1,171 @@
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
+/* Navbar */
+.navbar {
+    height: 4rem;
+    background-color: white !important;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 30px;
+
+}
+
+.ExploraX {
+    text-decoration: double;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Arial', sans-serif; 
+    color: #222222 !important;  
+
+}
+
+
+.nav-link {
+    /* !important must override other style and apply it  */
+    color: #222222 !important;  
+}
+
+/* Footer */
+footer {
+    background-color: #fde5c5 !important; /* Light pink background */
+    color: #ffffff; /* White text */
+    padding: 20px 0; /* Added padding for space around the content */
+}
+
+footer .f-info-socials i {
+    font-size: 1.5rem; /* Adjust icon size */
+    margin-right: 10px; /* Space between icons */
+    transition: transform 0.3s ease;
+}
+
+footer .f-info-socials i:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+footer .f-info-links a {
+    font-weight: bold;
+    color: #ffffff; /* Ensure link color is white */
+    text-decoration: none;
+    margin-right: 10px; /* Space between links */
+}
+
+footer .f-info-brand {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 10px; /* Space from other sections */
+}
+
+footer .container {
+    max-width: 1200px; /* Limit the width */
+    margin: 0 auto; /* Center the container */
+    text-align: center; /* Center-align content */
+}
+
+footer .f-info-links a:hover {
+    color: #f8f9fa; /* Lighten color on hover */
+}
+
+
+/* Cards */
+.listing-card {
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+.listing-link:hover {
+    text-decoration: underline;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: paleturquoise;
+}
+
+/* new page */
+.btn {
+    background-color:#fe424d  ;
+    border: none !important;
+}
+
+/* add new page form*/
+#all {
+    background: linear-gradient(to bottom right, #bfdbfe, #c084fc); /* Corrected gradient syntax */
+    opacity: 2;
+    margin:auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.newform {
+    padding: 20px; 
+}
+
+/* Edit page form */
+.editbtn {
+    border: none !important;
+    color: white;
+}
+
+.btn-delete {
+    border: none !important;
+    color: white;
+    background-color: #fe424d !important;
+}
+
+#all2 {
+    background: linear-gradient(to bottom right, #bfdbfe, #c084fc); /* Corrected gradient syntax */
+    opacity: 2;
+    margin:auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.editform {
+    padding: 20px; 
+}
+
+/* show page */
+.show-img {
+    height: 35vh;
+}
+
+.btn1 {
+    display: flex;
+}
+.needs-validation{
+    background: linear-gradient(to bottom right, #bfdbfe, #c084fc); /* Corrected gradient syntax */
+    opacity: 2;
+    margin:auto;
+    padding: 15px;
+    border-radius: 15px;
+}
+
