@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Project-Wanderlust
 
@@ -25,3 +26,6 @@
 
 
 
+=======
+# ExploraX
+>>>>>>> 7448b1b4d081c0f0a6d11d149559fea767bebf72
